@@ -99,16 +99,4 @@ gsap.from("#colon2", {
     scrub: 4,
   },
 });
-gsap.from("#page4 h1", {
-  y: 50,
-  scrollTrigger: {
-    trigger: "#page4 h1",
-    scroller: "body",
-    // markers:true,
-    start: "top 75%",
-    end: "top 70%",
-    scrub: 3,
-  },
-});
 
-// Thanks itna aage tak aane ke liye lekin pura code utha ke copy paste karne ki jagah khud ek baar banane ka try karna, kuch naya seekhne ko milega!

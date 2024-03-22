@@ -100,7 +100,7 @@ video {
   position: relative;
 }
 #page1 h1::before {
-  content: "EAT. DRINK. PLAY.";
+  content: "$.URANUS.WEB.";
   position: absolute;
   color: #000;
   top: -5px;
@@ -243,13 +243,13 @@ video {
   transition: all ease 0.6s;
 }
 #card1 {
-  background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-toptracer-1024x682.jpg?strip=all&lossy=1&sharp=1&ssl=1);
+  background-image: url(DOC3.png);
 }
 #card2 {
-  background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/hero-4-1024x1024.jpg?strip=all&lossy=1&sharp=1&ssl=1);
+  background-image: url(DOC4.png);
 }
 #card3 {
-  background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-lessons-1024x682.jpg?strip=all&lossy=1&sharp=1&ssl=1);
+  background-image: url(DOC5.png);
 }
 .overlay {
   height: 100%;
@@ -265,7 +265,7 @@ video {
   font-size: 40px;
   text-transform: uppercase;
   white-space: nowrap;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-weight: 800;
 }
 .overlay p {
@@ -312,7 +312,7 @@ video {
   justify-content: center;
 }
 #page3 > p {
-  font-size: 35px;
+  font-size: 15px;
   font-weight: 700;
   width: 60%;
   line-height: 45px;
@@ -331,112 +331,53 @@ video {
   bottom: 30%;
   right: 15%;
 }
-#page4 {
-  height: 30vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 70px;
-  position: relative;
-}
-.elem {
-  height: 70%;
-  width: 26%;
-  overflow: hidden;
-  border-radius: 20px;
-  position: relative;
+.contact-us {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #95c11e
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.elem h2 {
-  height: 100%;
+.contact-us h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
   width: 100%;
+  padding: 10px;
+  border: 1px solid #95c11e;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
   background-color: #95c11e;
-  display: flex;
-  color: #000;
-  font-weight: 800;
-  align-items: center;
-  justify-content: center;
-  transition: all ease 0.5s;
-  font-size: 2vw;
-  position: absolute;
-  z-index: 10;
-}
-.elem img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  transition: all ease 0.5s;
-  scale: 1.1;
-}
-.elem:hover h2 {
   color: #fff;
-  background-color: transparent;
-}
-.elem:hover img {
-  scale: 1;
-}
-#page4 h1 {
-  font-size: 6.4vw;
-  position: absolute;
-  top: -15%;
-  font-weight: 900;
-  font-family: gilroy;
-  color: #000;
-  -webkit-text-stroke: 2px #fff;
-}
-#footer {
-  height: 40vh;
-  width: 100%;
-  background: linear-gradient(to left bottom, #119f3a 0%, #a3d421 80%);
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 6.5vw;
-  padding: 0 100px;
-}
-#footer > img {
-  position: absolute;
-  left: 0;
-  height: 100%;
-  z-index: 0;
-}
-#f1 img {
-  height: 100px;
-}
-#f1,
-#f2,
-#f3,
-#f4 {
-  width: fit-content;
-  position: relative;
-  z-index: 99;
-  /* background-color: red; */
-}
-#f2 h3 {
-  font-size: 1.6vw;
-  white-space: nowrap;
-  text-transform: uppercase;
-  color: #000;
-  font-weight: 900;
-  margin-bottom: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-#f3 h3 {
-  font-size: 1.6vw;
-  white-space: nowrap;
-  text-transform: uppercase;
-  color: #000;
-  font-weight: 800;
-  margin-bottom: 8px;
-}
-#f4 h4 {
-  font-size: 1vw;
-  white-space: nowrap;
-  text-transform: uppercase;
-  color: #000;
-  font-weight: 600;
-  line-height: 20px;
-  margin-bottom: 8px;
+button:hover {
+  background-color: #0056b3;
 }
